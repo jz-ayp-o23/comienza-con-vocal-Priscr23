@@ -1,0 +1,244 @@
+{
+  "tests": [
+    {
+      "name": "Test1",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_vocal.py",
+      "input": "Ana",
+      "output": "'Ana' comienza con vocal",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test2",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_vocal.py",
+      "input": "árbol",
+      "output": "'árbol' comienza con vocal",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test3",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_vocal.py",
+      "input": "Berenjena",
+      "output": "'Berenjena' no comienza con vocal",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test4",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_vocal.py",
+      "input": "Árbol",
+      "output": "'Árbol' comienza con vocal",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test5",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_vocal.py",
+      "input": "androide",
+      "output": "'androide' comienza con vocal",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test7",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_vocal.py",
+      "input": "123",
+      "output": "'123' no comienza con vocal",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test8",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_vocal.py",
+      "input": "Enrique",
+      "output": "'Enrique' comienza con vocal",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test9",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_vocal.py",
+      "input": "enriquecer",
+      "output": "'enriquecer' comienza con vocal",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test10",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_vocal.py",
+      "input": "épico",
+      "output": "'épico' comienza con vocal",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test11",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_vocal.py",
+      "input": "Épico",
+      "output": "'Épico' comienza con vocal",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test12",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_vocal.py",
+      "input": "Ismael",
+      "output": "'Ismael' comienza con vocal",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test13",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_vocal.py",
+      "input": "isla",
+      "output": "'isla' comienza con vocal",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test14",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_vocal.py",
+      "input": "Íñigo",
+      "output": "'Íñigo' comienza con vocal",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test15",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_vocal.py",
+      "input": "índice",
+      "output": "'índice' comienza con vocal",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test16",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_vocal.py",
+      "input": "Omar",
+      "output": "'Omar' comienza con vocal",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test17",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_vocal.py",
+      "input": "Óscar",
+      "output": "'Óscar' comienza con vocal",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test18",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_vocal.py",
+      "input": "onda",
+      "output": "'onda' comienza con vocal",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test19",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_vocal.py",
+      "input": "órale",
+      "output": "'órale' comienza con vocal",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test20",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_vocal.py",
+      "input": "Uganda",
+      "output": "'Uganda' comienza con vocal",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test21",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_vocal.py",
+      "input": "Úrsula",
+      "output": "'Úrsula' comienza con vocal",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test22",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_vocal.py",
+      "input": "uno",
+      "output": "'uno' comienza con vocal",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test23",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_vocal.py",
+      "input": "único",
+      "output": "'único' comienza con vocal",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test24",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_vocal.py",
+      "input": "ünexistente",
+      "output": "'ünexistente' comienza con vocal",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test25",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_vocal.py",
+      "input": "Ü3",
+      "output": "'Ü3' comienza con vocal",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
