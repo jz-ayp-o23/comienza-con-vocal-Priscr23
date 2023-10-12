@@ -1,6 +1,6 @@
 """
  Diseña un programa para determinar si una palabra o frase comienza con una vocal. Toma en cuenta que las vocales no por estar en mayúscula o tener acento dejan de ser vocales.
- 750722.
+ 750722
 """
 #Entradas
 palabra = []
